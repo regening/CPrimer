@@ -1,3 +1,4 @@
+/* 2.12 1
 #include <stdio.h>
 
 int main(){
@@ -10,3 +11,5 @@ int main(){
 
     return 0;
 }
+
+*/
