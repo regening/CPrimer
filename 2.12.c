@@ -8,9 +8,9 @@ void br();
 void ic();  */
 /* 2.12 7 
 void smile();   */
-/* 2.12 8 */
+/* 2.12 8 
 void two();
-void one_three();
+void one_three();   */
 
 int main(){
 
@@ -53,15 +53,15 @@ int main(){
     smile();
     printf("\n");
     smile();    */
-/* 2.12 8 */
+/* 2.12 8 
     printf("starting now\n");
     one_three();
-    printf("done!");
+    printf("done!");    */
 
     getchar();
 
     return 0;
-}
+}   
 
 /* 2.12 4 
 void jolly(){
@@ -81,7 +81,7 @@ void ic(){
 void smile(){
     printf("Smile!");
 }   */
-/* 2.12 8 */
+/* 2.12 8 
 void two(){
     printf("two\n");
 }
@@ -89,6 +89,6 @@ void one_three(){
     printf("one\n");
     two();
     printf("three\n");
-}
+}   */
 
 
