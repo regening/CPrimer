@@ -3,9 +3,14 @@
 /* 2.12 4 
 void jolly();
 void deny();    */
-/* 2.12 5*/
+/* 2.12 5 
 void br();
-void ic();
+void ic();  */
+/* 2.12 7 
+void smile();   */
+/* 2.12 8 */
+void two();
+void one_three();
 
 int main(){
 
@@ -26,15 +31,32 @@ int main(){
 /* 2.12 4 
     jolly();
     deny(); */
-/* 2.12 5*/
+/* 2.12 5 
     br();
     printf(",");
     ic();
     printf("\n");
     ic();
     printf(",\n");
-    br();
-
+    br();  */ 
+/* 2.12 6 
+    int toes = 10;
+    int a = 2 * toes;
+    int b = toes * toes;
+    printf("toes的值为：%d\ntoes的二倍为：%d\ntoes的平方为：%d\n",toes ,a ,b);  */
+/* 2.12 7 
+    smile();
+    smile();
+    smile();
+    printf("\n");
+    smile();
+    smile();
+    printf("\n");
+    smile();    */
+/* 2.12 8 */
+    printf("starting now\n");
+    one_three();
+    printf("done!");
 
     getchar();
 
@@ -48,14 +70,25 @@ void jolly(){
 void deny(){
     printf("Which nobody can deny!\n");
 }   */
-
-/* 2.12 5*/
+/* 2.12 5 
 void br(){
     printf("Brazil, Russia");
 }
 void ic(){
     printf("India, China");
+}   */
+/* 2.12 7 
+void smile(){
+    printf("Smile!");
+}   */
+/* 2.12 8 */
+void two(){
+    printf("two\n");
 }
-
+void one_three(){
+    printf("one\n");
+    two();
+    printf("three\n");
+}
 
 
