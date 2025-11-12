@@ -62,7 +62,7 @@ int main(){
     printf("%.6f %.6lf\n", a, b);
     printf("%.12f %.12lf\n", a, b);
     printf("%.16f %.16lf\n", a, b);    */
-/* 4.8 8 */
+/* 4.8 8 
     const float a = 3.785f;
     const float km = 1.609f;
     
@@ -76,7 +76,7 @@ int main(){
     
     float b = (a * 100.0f) / (mpg * km);
     
-    printf("燃油消耗: %.1f 升/100公里\n", b);
+    printf("燃油消耗: %.1f 升/100公里\n", b);   */
 
 
     getchar();
